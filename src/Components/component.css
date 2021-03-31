@@ -1,0 +1,438 @@
+body{
+    background-color: rgba(255, 255, 255, 0.616);
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+/* Responsive iframe */
+.carbon-container{
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 5.25% 
+}
+ 
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+
+/* for page */
+.page-wrapper{    
+    padding: 1rem;  
+}
+
+/* for alert container*/
+.alert-container{
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #bcebf1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.alert{
+    margin: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.alert-solid-success{
+    background-color: #d1f7f0;
+    color: #11593b;
+}
+
+.alert-solid-error{
+    background-color: #fad7d6;
+    color: #f13531;
+}
+
+.alert-solid-warning{
+    background-color: #f8e3ce;
+    color: #ee7031;
+}
+.alert-solid-info{
+    background-color: rgb(173, 173, 245);
+    color: rgb(92, 94, 255);
+}
+
+
+/* for avatar*/
+.avatar{
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #bcebf1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.avatar-container {
+    margin: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.avatar__img {
+    align-content: center;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/* avatar images*/
+img.xs{
+    width: 3rem;
+    height: 3rem;
+}
+
+img.sm{
+    width: 4rem;
+    height: 4rem;
+}
+
+img.md{
+    width: 5rem;
+    height: 5rem;
+}
+
+img.lg{
+    width: 6rem;
+    height: 6rem;
+}
+
+img.xl{
+    width: 7rem;
+    height: 7rem;
+}
+
+/* for badges */
+.Badge{
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #bcebf1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.btnb{
+    margin: 3rem;
+}
+.avtd{
+    margin: 3rem;
+}
+
+.badge{
+    background-color: #B4EC44;
+    color: black;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+
+.bg-secondary{
+    background-color:#ffffff;
+    border: 1px solid #B4EC44;
+}
+/* for notification badge*/
+.notification {
+    background-color:#B4EC44;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+}
+  
+.notification:hover {
+    transition: 0.4s ease;
+    background-color:#ffffff;
+    border: 1px solid #9bbb44;
+    color: black;
+}
+  
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 90rem;
+    background: rgb(94, 203, 223);
+    color: rgb(245, 245, 245);
+}
+/* Image with badge*/
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #B4EC44;
+    color: black;
+}
+  
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* for buttons*/
+.Button{
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #bcebf1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+button{
+    background-color:#B4EC44;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    font-size: small;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 2px solid #B4EC44;
+    margin: 0.3rem;
+}
+
+button:hover{
+    background-color:#fefffd;
+    color: black;
+    border: 2px solid #b7e756;
+}
+
+.button2{
+    background-color:#ffffff;
+    border: 1px solid #B4EC44;
+}
+
+/* for cards*/
+.row{
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #bcebf1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card{
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 300px;
+    margin: 3rem;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fffff7;
+    line-height: 32px;
+}
+
+.darken-1{
+    background-color: #0d1a31 ;
+    border-radius: 1rem; 
+    text-align: center;
+}
+
+/* for card with image*/
+.cardwithImage, Img{
+    border-radius: 9px;
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+}
+  
+.price {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 1000px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+/* for forms*/
+.form{
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #bcebf1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+}
+
+.form-group{
+    margin: 3rem;
+}
+
+/* for modals*/
+.modal-container {
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #bcebf1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+}
+  
+.modal-container button {
+    display: block;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    width: 160px;
+    height: 50px;
+    line-height: 9px;
+    background: #9fcbf3;
+    font-size: 22px;
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px -5px #333;
+    transition: background 0.3s ease-in;
+}
+  
+.modal-container .modal-backdrop {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.2s ease-in;
+}
+  
+.modal-container #modal-toggle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.modal-container #modal-toggle:hover ~ button { background: #ffffff; }
+
+.modal-container #modal-toggle:checked {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  opacity: 0;
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  max-width: 400px;
+  width: 100%;
+  height: 280px;
+  padding: 10px 30px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 12%;
+  border-radius: 4px;
+  z-index: 999;
+  pointer-events: auto;
+  cursor: auto;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
+}
+@media (max-width: 400px) {
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content { left: 0; }
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close {
+  color: #666;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  padding-top: 7px;
+  background: #fff;
+  font-size: 16px;
+  width: 25px;
+  height: 28px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close.button {
+  top: initial;
+  bottom: 20px;
+  right: 20px;
+  background: #f37f7f;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close.button:hover {
+  color: rgb(0, 0, 0);
+  background: #ff2f2f;
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close:hover { color: #333; }
+
+
+/* for text format*/
+.text-container{
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #bcebf1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+}
+
+.centered{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
