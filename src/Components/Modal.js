@@ -2,27 +2,28 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-function Form() {
+
+function Modal() {
     return (
         <Container>
         <Title>
-        <h1># Form</h1>
-        <p>A webform, web form or HTML form on a web page allows a user to enter data that is sent to a server for processing. ... For example, forms can be used to enter shipping or credit card data to order a product, or can be used to retrieve search results from a search engine.</p>
+        <h1># Modal</h1>
+        <p>A modal is a dialog box/popup window that is displayed on top of the current page: Open Modal. ×</p>   
         </Title>
-        <Forms>
+        <Modals>
         <div class="carbon.container">
-        <iframe src="https://codesandbox.io/embed/admiring-hoover-0pob6?fontsize=14&hidenavigation=1&theme=dark&view=preview"
-        style={{width:'100%', height:'500px', border:'0', overflow:'autos'}}
-        title="admiring-hoover-0pob6"
+        <iframe src="https://codesandbox.io/embed/modal-2b84p?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+        style={{width:'100%', height:'500px', border:'0', overflow:'auto'}}
+        title="Modal"
         allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
         sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
         </div>
-        </Forms>
+        </Modals>
         </Container>
     )
 }
 
-export default Form
+export default Modal
 
 const Container= styled.div``
 
@@ -35,6 +36,6 @@ const Title = styled.div`
     }
 `
 
-const Forms = styled.div`
+const Modals = styled.div`
 padding: 2rem;
 `
