@@ -8,12 +8,12 @@ import Button from  '../src/Components/Button'
 import Card from '../src/Components/Card'
 import Form from '../src/Components/Form'
 import Modal from '../src/Components/Modal'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css'
 
 function Body() {
     return (
-        <Container>
+    <Container>
         <Router>
            <Nav>
            <SideNav/>
@@ -30,7 +30,7 @@ function Body() {
             </div>
            </Doc>
         </Router>
-        </Container>
+    </Container>
     )
 }
 
