@@ -5,10 +5,7 @@
   font-family: Montserrat;
 }
 
-nav{
-  text-align: center;
-  padding: rem;
-}
+
 nav>h1{
   text-align: left;
   padding: 1rem;
@@ -17,6 +14,7 @@ nav>h1{
 
 
 li{
+  text-align: center;
   text-decoration: none;
   color: black;
   width: 80%;

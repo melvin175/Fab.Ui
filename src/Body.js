@@ -34,12 +34,6 @@ function Body() {
     )
 }
 
-const Home = () => (
-    <div>
-        Home
-    </div>
-)
-
 
 export default Body
 
