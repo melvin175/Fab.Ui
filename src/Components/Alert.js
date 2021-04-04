@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
-
 function Alert() {
     return (
         <Container>
@@ -28,7 +26,7 @@ export default Alert
 const Container= styled.div``
 
 const Title = styled.div`
-    padding: 3rem;
+    padding: 5rem;
     color: black;
     p{
         margin-top: 2rem;
