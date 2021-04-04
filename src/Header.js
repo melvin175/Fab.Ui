@@ -6,7 +6,7 @@ function Header() {
     return (
         <Container>
             <HeaderLogo>
-            <h1>Fab-Ui</h1>
+            <a href={'https://fabui.netlify.app'}><h1>Fab-Ui</h1></a>
             <a href={'https://github.com/melvin175/Fab.Ui'}>
             <button>
             <FiGithub/> Github
@@ -33,6 +33,9 @@ const HeaderLogo = styled.div`
         padding: 0.7rem;
         margin-left: 1rem;
     }
+    a{
+        color: whitesmoke;
+    }
    
 
     button{
@@ -47,7 +50,7 @@ const HeaderLogo = styled.div`
         cursor: pointer;
         :hover{
             border-radius: 5px;
-            background-color: #71db72;
+            background-color: #2ee537;
             box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
             transform: translateY(-7px);       
         }

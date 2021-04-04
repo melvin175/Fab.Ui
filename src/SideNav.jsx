@@ -8,7 +8,7 @@ export default function SideNav() {
         <nav>
             <ul div class="getting-started">
             <h1>Getting Started</h1>
-            <Link to="/introduction">
+            <Link to="/">
                 <li>Introduction</li>
             </Link>
             <Link to="/download">
