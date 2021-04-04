@@ -39,7 +39,7 @@ const HeaderLogo = styled.div`
         float: right;
         padding: 5px;
         margin: 1rem;
-        background-color: #6BC46D;
+        background-color: #2EE59D;
         border-radius: 5px;
         font-size: 24px;
         transition: all 0.3s ease 0s;
