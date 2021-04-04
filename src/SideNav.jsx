@@ -6,8 +6,17 @@ import { Link } from 'react-router-dom';
 export default function SideNav() {
     return (
         <nav>
-            <h1>Components</h1>
+            <ul div class="getting-started">
+            <h1>Getting Started</h1>
+            <Link to="/">
+                <li>Introduction</li>
+            </Link>
+            <Link to="/download">
+                <li>Download</li>
+            </Link>
+            </ul>
             <ul className="nav-links">
+            <h1>Components</h1>
                 <Link to="/alert">
                     <li>Alert</li>
                 </Link>

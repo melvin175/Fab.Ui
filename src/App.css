@@ -1,21 +1,27 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 
 *{
+  overflow-x: hidden;
+  overflow: none;
   margin: 0;
   font-family: Montserrat;
+  text-decoration: none;
 }
 
 
-nav>h1{
-  text-align: left;
-  padding: 1rem;
-  font-size: 30px;
+ul>h1{ 
+  margin-top: 3rem;
+  font-size: 25px;
 }
+
+.nav-links{
+  margin-top: 3rem;
+}
+
 
 
 li{
   text-align: center;
-  text-decoration: none;
   color: black;
   width: 80%;
   height: 40px;
@@ -43,4 +49,6 @@ li:hover{
   margin: 2rem;
   background-color: #e5e4f5;
 }
+
+
 

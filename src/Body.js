@@ -8,6 +8,8 @@ import Button from  '../src/Components/Button'
 import Card from '../src/Components/Card'
 import Form from '../src/Components/Form'
 import Modal from '../src/Components/Modal'
+import Introduction from '../src/Components/Introduction'
+import Download from '../src/Components/Download'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css'
 
@@ -20,6 +22,8 @@ function Body() {
            </Nav>
            <Doc> 
             <div className="code">
+            <Route path="/" exact component={Introduction} />
+            <Route path="/download" exact component={Download} />
             <Route path="/alert" component={Alert}/>
             <Route path="/avatar" component={Avatar}/>
             <Route path="/badge" component={Badges} />
