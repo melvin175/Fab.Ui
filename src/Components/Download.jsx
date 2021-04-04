@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import DownloadLink from "react-download-link"
-
 
 const Download = () => {
     return (
@@ -10,6 +8,7 @@ const Download = () => {
         <h1># Download</h1>
         <p>Download the css file from below and add link it in your app to access all the components available.</p>
         </Title>
+        
         <div class="download-css">
         <button>
             Save this Css
